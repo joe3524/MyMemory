@@ -151,7 +151,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="XKf-ON-jJG" kind="show" identifier="read_sg" id="TNl-w3-3oR"/>
+                        <segue destination="XKf-ON-jJG" kind="show" identifier="read_sg" id="tlA-b6-H3k"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M64-Gt-ejc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -161,7 +161,7 @@
         <!--상세화면-->
         <scene sceneID="geD-Fq-HF3">
             <objects>
-                <viewController storyboardIdentifier="MemoRead" id="XKf-ON-jJG" userLabel="상세화면" customClass="MemoReadVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoRead" automaticallyAdjustsScrollViewInsets="NO" id="XKf-ON-jJG" userLabel="상세화면" customClass="MemoReadVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u1a-Yn-o13"/>
                         <viewControllerLayoutGuide type="bottom" id="qzm-sX-dPj"/>

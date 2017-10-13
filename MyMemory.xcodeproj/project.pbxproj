@@ -17,6 +17,7 @@
 		D8A25D5F1F7D457A00E042B0 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D5E1F7D457A00E042B0 /* MemoReadVC.swift */; };
 		D8A25D611F7D45F100E042B0 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D601F7D45F100E042B0 /* MemoCell.swift */; };
 		D8A25D631F7D471900E042B0 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D621F7D471900E042B0 /* MemoData.swift */; };
+		D8B028891F7F768300695091 /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B028881F7F768300695091 /* fountainpen@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D8A25D5E1F7D457A00E042B0 /* MemoReadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		D8A25D601F7D45F100E042B0 /* MemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		D8A25D621F7D471900E042B0 /* MemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		D8B028881F7F768300695091 /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fountainpen@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		D8A25D181F7C77D300E042B0 = {
 			isa = PBXGroup;
 			children = (
+				D8B028871F7F766F00695091 /* Resources */,
 				D8A25D231F7C77D400E042B0 /* MyMemory */,
 				D8A25D221F7C77D400E042B0 /* Products */,
 			);
@@ -77,6 +80,14 @@
 				D8A25D2B1F7C77D400E042B0 /* MyMemory.xcdatamodeld */,
 			);
 			path = MyMemory;
+			sourceTree = "<group>";
+		};
+		D8B028871F7F766F00695091 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8B028881F7F768300695091 /* fountainpen@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				D8A25D321F7C77D400E042B0 /* LaunchScreen.storyboard in Resources */,
 				D8A25D2F1F7C77D400E042B0 /* Assets.xcassets in Resources */,
+				D8B028891F7F768300695091 /* fountainpen@2x.png in Resources */,
 				D8A25D2A1F7C77D400E042B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joe3524.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joe3524.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -324,6 +338,7 @@
 				D8A25D381F7C77D400E042B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
