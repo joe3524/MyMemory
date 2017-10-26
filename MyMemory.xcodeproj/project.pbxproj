@@ -18,6 +18,8 @@
 		D8A25D611F7D45F100E042B0 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D601F7D45F100E042B0 /* MemoCell.swift */; };
 		D8A25D631F7D471900E042B0 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D621F7D471900E042B0 /* MemoData.swift */; };
 		D8B028891F7F768300695091 /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B028881F7F768300695091 /* fountainpen@2x.png */; };
+		D8CB7D7E1FA20B8A00EA0213 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB7D7D1FA20B8A00EA0213 /* CSLogButton.swift */; };
+		D8CB7D801FA20E8A00EA0213 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CB7D7F1FA20E8A00EA0213 /* button-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		D8A25D601F7D45F100E042B0 /* MemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		D8A25D621F7D471900E042B0 /* MemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 		D8B028881F7F768300695091 /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fountainpen@2x.png"; sourceTree = "<group>"; };
+		D8CB7D7D1FA20B8A00EA0213 /* CSLogButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		D8CB7D7F1FA20E8A00EA0213 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 				D8A25D5A1F7D43F600E042B0 /* MemoListVC.swift */,
 				D8A25D5C1F7D453F00E042B0 /* MemoFormVC.swift */,
 				D8A25D5E1F7D457A00E042B0 /* MemoReadVC.swift */,
+				D8CB7D7D1FA20B8A00EA0213 /* CSLogButton.swift */,
 				D8A25D281F7C77D400E042B0 /* Main.storyboard */,
 				D8A25D2E1F7C77D400E042B0 /* Assets.xcassets */,
 				D8A25D301F7C77D400E042B0 /* LaunchScreen.storyboard */,
@@ -86,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D8B028881F7F768300695091 /* fountainpen@2x.png */,
+				D8CB7D7F1FA20E8A00EA0213 /* button-bg.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A25D321F7C77D400E042B0 /* LaunchScreen.storyboard in Resources */,
+				D8CB7D801FA20E8A00EA0213 /* button-bg.png in Resources */,
 				D8A25D2F1F7C77D400E042B0 /* Assets.xcassets in Resources */,
 				D8B028891F7F768300695091 /* fountainpen@2x.png in Resources */,
 				D8A25D2A1F7C77D400E042B0 /* Main.storyboard in Resources */,
@@ -164,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CB7D7E1FA20B8A00EA0213 /* CSLogButton.swift in Sources */,
 				D8A25D5B1F7D43F600E042B0 /* MemoListVC.swift in Sources */,
 				D8A25D5F1F7D457A00E042B0 /* MemoReadVC.swift in Sources */,
 				D8A25D2D1F7C77D400E042B0 /* MyMemory.xcdatamodeld in Sources */,

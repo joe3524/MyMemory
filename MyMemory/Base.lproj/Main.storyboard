@@ -20,6 +20,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="4E1-fh-1cD">
+                            <rect key="frame" x="0.0" y="188" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgM-pW-szd" customClass="CSLogButton" customModule="MyMemory" customModuleProvider="target">
+                                    <rect key="frame" x="130" y="7" width="115" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="115" id="Ju4-Ob-aki"/>
+                                        <constraint firstAttribute="height" constant="30" id="PKP-Zh-Z2Y"/>
+                                    </constraints>
+                                    <state key="normal" title="더보기"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="SgM-pW-szd" firstAttribute="centerY" secondItem="4E1-fh-1cD" secondAttribute="centerY" id="Xos-Od-OBW"/>
+                                <constraint firstItem="SgM-pW-szd" firstAttribute="centerX" secondItem="4E1-fh-1cD" secondAttribute="centerX" id="wN1-7w-yKm"/>
+                            </constraints>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="memoCell" rowHeight="80" id="kP0-Ee-RK5" customClass="MemoCell" customModule="MyMemory" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
