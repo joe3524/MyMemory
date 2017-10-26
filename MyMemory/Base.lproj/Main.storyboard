@@ -248,29 +248,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8RR-cc-8Oh">
-                                <rect key="frame" x="16" y="72" width="343" height="250"/>
+                                <rect key="frame" x="16" y="64" width="343" height="250"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="zwx-L6-ubX"/>
+                                    <constraint firstAttribute="height" constant="250" id="pYe-c1-wpk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KGy-wq-vW7">
-                                <rect key="frame" x="16" y="337" width="250" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="6cU-xw-Fsl"/>
-                                    <constraint firstAttribute="width" constant="250" id="rCz-mi-Vyu"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="329" width="250" height="250"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="trailing" secondItem="10B-zR-oE7" secondAttribute="trailingMargin" id="Pjs-QT-K0b"/>
-                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="top" secondItem="6Zx-aS-RA6" secondAttribute="bottom" constant="8" symbolic="YES" id="cxU-bQ-bxu"/>
-                            <constraint firstItem="KGy-wq-vW7" firstAttribute="top" secondItem="8RR-cc-8Oh" secondAttribute="bottom" constant="15" id="eMw-BH-y8v"/>
-                            <constraint firstItem="KGy-wq-vW7" firstAttribute="leading" secondItem="10B-zR-oE7" secondAttribute="leadingMargin" id="jbo-u6-b5f"/>
-                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="leading" secondItem="10B-zR-oE7" secondAttribute="leadingMargin" id="pm5-4V-26S"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KGy-wq-vW7" secondAttribute="trailing" constant="93" id="1d1-hX-Wor"/>
+                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="leading" secondItem="10B-zR-oE7" secondAttribute="leadingMargin" id="92w-hm-maL"/>
+                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="leading" secondItem="KGy-wq-vW7" secondAttribute="leading" id="UZb-xL-ox1"/>
+                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="top" secondItem="6Zx-aS-RA6" secondAttribute="bottom" id="ZyN-PU-zHI"/>
+                            <constraint firstItem="KGy-wq-vW7" firstAttribute="top" secondItem="8RR-cc-8Oh" secondAttribute="bottom" constant="15" id="vez-kV-6nL"/>
+                            <constraint firstItem="W7R-mL-yWf" firstAttribute="top" secondItem="KGy-wq-vW7" secondAttribute="bottom" constant="88" id="whm-9G-Rha"/>
+                            <constraint firstItem="8RR-cc-8Oh" firstAttribute="trailing" secondItem="10B-zR-oE7" secondAttribute="trailingMargin" id="zex-il-Q4i"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="메모작성" id="2a8-rX-xZ8">
