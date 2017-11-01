@@ -235,6 +235,41 @@
             </objects>
             <point key="canvasLocation" x="1773.5999999999999" y="125.4872563718141"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Zz3-35-VRV">
+            <objects>
+                <navigationController storyboardIdentifier="_Profile" hidesBarsOnTap="YES" hidesBarsWhenKeyboardAppears="YES" hidesBarsWhenVerticallyCompact="YES" id="fiJ-2L-whV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qO9-ID-cOx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Q7Q-gp-Tot" kind="relationship" relationship="rootViewController" id="utf-Dm-CJC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l3v-RY-A0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1774" y="813"/>
+        </scene>
+        <!--프로필-->
+        <scene sceneID="lXg-BC-5qi">
+            <objects>
+                <viewController id="Q7Q-gp-Tot" customClass="ProfileVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YUr-k5-isb"/>
+                        <viewControllerLayoutGuide type="bottom" id="mpG-80-esW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vo4-7g-HRL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="프로필" id="nKU-UT-m60"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhA-mt-Q78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2482" y="813"/>
+        </scene>
         <!--Side BarVC-->
         <scene sceneID="G7l-Cq-wUN">
             <objects>

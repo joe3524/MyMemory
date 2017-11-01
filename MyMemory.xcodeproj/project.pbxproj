@@ -18,6 +18,7 @@
 		D82188A51FA843130061CCB5 /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = D821889C1FA843130061CCB5 /* sidemenu.png */; };
 		D82188A81FA865360061CCB5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82188A71FA865360061CCB5 /* SWRevealViewController.m */; };
 		D82188AA1FA865950061CCB5 /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82188A91FA865950061CCB5 /* SideBarVC.swift */; };
+		D86200011FA9F15B00E7CE06 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86200001FA9F15A00E7CE06 /* ProfileVC.swift */; };
 		D8A25D251F7C77D400E042B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D241F7C77D400E042B0 /* AppDelegate.swift */; };
 		D8A25D2A1F7C77D400E042B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A25D281F7C77D400E042B0 /* Main.storyboard */; };
 		D8A25D2D1F7C77D400E042B0 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D2B1F7C77D400E042B0 /* MyMemory.xcdatamodeld */; };
@@ -49,6 +50,7 @@
 		D82188A61FA865360061CCB5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D82188A71FA865360061CCB5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D82188A91FA865950061CCB5 /* SideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		D86200001FA9F15A00E7CE06 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		D8A25D211F7C77D400E042B0 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A25D241F7C77D400E042B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A25D291F7C77D400E042B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				D8CB7D7D1FA20B8A00EA0213 /* CSLogButton.swift */,
 				D8A25D281F7C77D400E042B0 /* Main.storyboard */,
 				D82188A91FA865950061CCB5 /* SideBarVC.swift */,
+				D86200001FA9F15A00E7CE06 /* ProfileVC.swift */,
 				D8A25D2E1F7C77D400E042B0 /* Assets.xcassets */,
 				D8A25D301F7C77D400E042B0 /* LaunchScreen.storyboard */,
 				D8A25D331F7C77D400E042B0 /* Info.plist */,
@@ -235,6 +238,7 @@
 				D82188A81FA865360061CCB5 /* SWRevealViewController.m in Sources */,
 				D8A25D5D1F7D453F00E042B0 /* MemoFormVC.swift in Sources */,
 				D8A25D251F7C77D400E042B0 /* AppDelegate.swift in Sources */,
+				D86200011FA9F15B00E7CE06 /* ProfileVC.swift in Sources */,
 				D8A25D611F7D45F100E042B0 /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
