@@ -285,7 +285,7 @@
         <!--메모작성-->
         <scene sceneID="kJB-8b-oXn">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="xT9-Xw-SHL" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoForm" automaticallyAdjustsScrollViewInsets="NO" id="xT9-Xw-SHL" customClass="MemoFormVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Zx-aS-RA6"/>
                         <viewControllerLayoutGuide type="bottom" id="W7R-mL-yWf"/>
