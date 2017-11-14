@@ -19,6 +19,7 @@
 		D82188A81FA865360061CCB5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82188A71FA865360061CCB5 /* SWRevealViewController.m */; };
 		D82188AA1FA865950061CCB5 /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82188A91FA865950061CCB5 /* SideBarVC.swift */; };
 		D86200011FA9F15B00E7CE06 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86200001FA9F15A00E7CE06 /* ProfileVC.swift */; };
+		D8A2570E1FB6F78600B000EF /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A2570D1FB6F78600B000EF /* UserInfoManager.swift */; };
 		D8A25D251F7C77D400E042B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D241F7C77D400E042B0 /* AppDelegate.swift */; };
 		D8A25D2A1F7C77D400E042B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A25D281F7C77D400E042B0 /* Main.storyboard */; };
 		D8A25D2D1F7C77D400E042B0 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8A25D2B1F7C77D400E042B0 /* MyMemory.xcdatamodeld */; };
@@ -51,6 +52,7 @@
 		D82188A71FA865360061CCB5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D82188A91FA865950061CCB5 /* SideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
 		D86200001FA9F15A00E7CE06 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D8A2570D1FB6F78600B000EF /* UserInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		D8A25D211F7C77D400E042B0 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A25D241F7C77D400E042B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A25D291F7C77D400E042B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				D8A25D281F7C77D400E042B0 /* Main.storyboard */,
 				D82188A91FA865950061CCB5 /* SideBarVC.swift */,
 				D86200001FA9F15A00E7CE06 /* ProfileVC.swift */,
+				D8A2570D1FB6F78600B000EF /* UserInfoManager.swift */,
 				D8A25D2E1F7C77D400E042B0 /* Assets.xcassets */,
 				D8A25D301F7C77D400E042B0 /* LaunchScreen.storyboard */,
 				D8A25D331F7C77D400E042B0 /* Info.plist */,
@@ -231,6 +234,7 @@
 			files = (
 				D8CB7D7E1FA20B8A00EA0213 /* CSLogButton.swift in Sources */,
 				D8A25D5B1F7D43F600E042B0 /* MemoListVC.swift in Sources */,
+				D8A2570E1FB6F78600B000EF /* UserInfoManager.swift in Sources */,
 				D8A25D5F1F7D457A00E042B0 /* MemoReadVC.swift in Sources */,
 				D8A25D2D1F7C77D400E042B0 /* MyMemory.xcdatamodeld in Sources */,
 				D8A25D631F7D471900E042B0 /* MemoData.swift in Sources */,
